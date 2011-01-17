@@ -1,488 +1,0 @@
-TSocketTest
-v7
-r0
-t316941717.164504
-cCheck dependencies
-cProcessInfoPlistFile /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/Info.plist SocketTest-Info.plist
-cCopyStringsFile /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCompileXIB /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/English.lproj/MainMenu.xib
-cProcessPCH /var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-ayxacwxlsdialeagxofqilpafhvx/SocketTest_Prefix.pch.gch SocketTest_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-dezchruopzgtnacrmvxhixsouuzz/SocketTest_Prefix.pch.gch SocketTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-hctjznhssiyxyghbchstqnggfuer/SocketTest_Prefix.pch.gch SocketTest_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/main.o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/SocketTestAppDelegate.o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTestAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/AsyncSocket.o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/main.o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/SocketTestAppDelegate.o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/AsyncSocket.o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/SocketTest normal x86_64
-cCompileC build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/main.o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cLd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/SocketTest normal i386
-cCompileC build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/SocketTestAppDelegate.o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTestAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/AsyncSocket.o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cLd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/SocketTest normal ppc
-cCreateUniversalBinary /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/MacOS/SocketTest normal "x86_64 i386 ppc"
-cGenerateDSYMFile /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app.dSYM /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/MacOS/SocketTest
-cTouch /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004CEB499600000000000000EE
-t1290488214
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C23AA0400000000000013E6
-t1277405700
-s5094
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h
-c000000004BBD2CC60000000000001533
-t1270688966
-s5427
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netdb.h
-c000000004BBD2D1D000000000000307F
-t1270689053
-s12415
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h
-c000000004C2399440000000000005414
-t1277401412
-s21524
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/socket.h
-c000000004C23994800000000000059BC
-t1277401416
-s22972
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004A1F2D63000000000000A5E0
-t1243557219
-s42464
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.h
-c0000000049E8E5A700000000000042A9
-t1239999911
-s17065
-i<Foundation/Foundation.h>
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m
-c0000000049E8E5A7000000000001565E
-t1239999911
-s87646
-i"AsyncSocket.h"
-i<sys/socket.h>
-i<netinet/in.h>
-i<arpa/inet.h>
-i<netdb.h>
-i<CFNetwork/CFNetwork.h>
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/English.lproj/InfoPlist.strings
-c000000004D2FF778000000000000002D
-t1294989176
-s45
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/English.lproj/MainMenu.xib
-c000000004D33A20800000000000353B3
-t1295229448
-s218035
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTestAppDelegate.h
-c000000004D339F7A000000000000025F
-t1295228794
-s607
-i<Cocoa/Cocoa.h>
-i"AsyncSocket.h"
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTestAppDelegate.m
-c000000004D33ACED0000000000000E21
-t1295232237
-s3617
-i"SocketTestAppDelegate.h"
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTest_Prefix.pch
-c000000004D2FF7780000000000000097
-t1294989176
-s151
-i<Cocoa/Cocoa.h>
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app
-t1295248917
-s102
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app.dSYM
-t1295248917
-s102
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/Info.plist
-t1295248907
-s895
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/MacOS/SocketTest
-t1295248917
-s262796
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/PkgInfo
-t1295248907
-s8
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1295248907
-s92
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/Resources/English.lproj/MainMenu.nib
-t1295248907
-s43152
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/AsyncSocket.o
-t1295248915
-s123312
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/SocketTest
-t1295248915
-s76472
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/SocketTest.LinkFileList
-c000000004D33EE0B000000000000018C
-t1295248907
-s396
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/SocketTestAppDelegate.o
-t1295248914
-s33712
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/main.o
-t1295248914
-s4864
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/AsyncSocket.o
-t1295248917
-s139548
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/SocketTest
-t1295248917
-s74380
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/SocketTest.LinkFileList
-c000000004D33EE0B0000000000000189
-t1295248907
-s393
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/SocketTestAppDelegate.o
-t1295248916
-s35316
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/main.o
-t1295248915
-s4892
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/AsyncSocket.o
-t1295248915
-s191804
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/SocketTest
-t1295248915
-s105896
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/SocketTest.LinkFileList
-c000000004D33EE0B0000000000000192
-t1295248907
-s402
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/SocketTestAppDelegate.o
-t1295248914
-s48120
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/main.o
-t1295248914
-s5064
-
-N/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/main.m
-c000000004D2FF77800000000000000FD
-t1294989176
-s253
-i<Cocoa/Cocoa.h>
-
-N/var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-ayxacwxlsdialeagxofqilpafhvx/SocketTest_Prefix.pch.gch
-t1295248911
-s52958992
-
-N/var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-dezchruopzgtnacrmvxhixsouuzz/SocketTest_Prefix.pch.gch
-t1295248911
-s55592752
-
-N/var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-hctjznhssiyxyghbchstqnggfuer/SocketTest_Prefix.pch.gch
-t1295248913
-s52823632
-
-NSocketTest-Info.plist
-c000000004D2FF77800000000000003EA
-t1294989176
-s1002
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies316941707#316941707#0(0"0(0#1#0"8619610656#0"0#
-
-CCompileC build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/AsyncSocket.o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s316941714.584944
-e316941715.861790
-r1
-xCompileC
-xbuild/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/AsyncSocket.o
-x/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m: In function '-[AsyncSocket connectToHost:onPort:withTimeout:error:]':
-o/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:951: warning: format not a string literal and no format arguments
-o/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:957: warning: format not a string literal and no format arguments
-o/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m: In function '-[AsyncSocket connectToAddress:withTimeout:error:]':
-o/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:1004: warning: format not a string literal and no format arguments
-o/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:1010: warning: format not a string literal and no format arguments
-lSLF07#2@70"Compile /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m316941714#316941715#0(782"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m: In function '-[AsyncSocket connectToHost:onPort:withTimeout:error:]':/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:951: warning: format not a string literal and no format arguments/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:957: warning: format not a string literal and no format arguments/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m: In function '-[AsyncSocket connectToAddress:withTimeout:error:]':/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:1004: warning: format not a string literal and no format arguments/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:1010: warning: format not a string literal and no format arguments4(22@51"Format not a string literal and no format arguments316941714#134#129#0(6@62"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m261692711#951#0#951#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments316941714#263#129#0(6@62"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m261692711#957#0#957#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments316941714#522#130#0(6@62"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m261692711#1004#0#1004#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments316941714#652#130#0(6@62"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m261692711#1010#0#1010#0#51"format not a string literal and no format arguments0(0#0#62"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m8627545248#1664"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-generated-files.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-own-target-headers.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-all-target-headers.hmap -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-project-headers.hmap -F/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/include -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources/i386 -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources -include /var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-dezchruopzgtnacrmvxhixsouuzz/SocketTest_Prefix.pch -c /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m -o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/AsyncSocket.o0#
-
-CCompileC build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/SocketTestAppDelegate.o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s316941714.358046
-e316941714.584857
-r1
-xCompileC
-xbuild/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/SocketTestAppDelegate.o
-x/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTestAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTestAppDelegate.m316941714#316941714#0(0"0(0#0#72"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTestAppDelegate.m8636900448#1684"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-generated-files.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-own-target-headers.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-all-target-headers.hmap -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-project-headers.hmap -F/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/include -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources/i386 -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources -include /var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-dezchruopzgtnacrmvxhixsouuzz/SocketTest_Prefix.pch -c /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTestAppDelegate.m -o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/SocketTestAppDelegate.o0#
-
-CCompileC build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/main.o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s316941714.159453
-e316941714.357962
-r1
-xCompileC
-xbuild/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/main.o
-x/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/main.m316941714#316941714#0(0"0(0#0#55"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/main.m8635646496#1650"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-generated-files.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-own-target-headers.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-all-target-headers.hmap -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-project-headers.hmap -F/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/include -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources/i386 -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources -include /var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-dezchruopzgtnacrmvxhixsouuzz/SocketTest_Prefix.pch -c /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/main.m -o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/main.o0#
-
-CCompileC build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/AsyncSocket.o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s316941715.934005
-e316941717.052023
-r1
-xCompileC
-xbuild/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/AsyncSocket.o
-x/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m: In function '-[AsyncSocket connectToHost:onPort:withTimeout:error:]':
-o/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:951: warning: format not a string literal and no format arguments
-o/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:957: warning: format not a string literal and no format arguments
-o/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m: In function '-[AsyncSocket connectToAddress:withTimeout:error:]':
-o/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:1004: warning: format not a string literal and no format arguments
-o/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:1010: warning: format not a string literal and no format arguments
-lSLF07#2@70"Compile /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m316941715#316941717#0(782"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m: In function '-[AsyncSocket connectToHost:onPort:withTimeout:error:]':/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:951: warning: format not a string literal and no format arguments/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:957: warning: format not a string literal and no format arguments/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m: In function '-[AsyncSocket connectToAddress:withTimeout:error:]':/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:1004: warning: format not a string literal and no format arguments/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:1010: warning: format not a string literal and no format arguments4(22@51"Format not a string literal and no format arguments316941716#134#129#0(6@62"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m261692711#951#0#951#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments316941716#263#129#0(6@62"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m261692711#957#0#957#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments316941716#522#130#0(6@62"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m261692711#1004#0#1004#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments316941716#652#130#0(6@62"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m261692711#1010#0#1010#0#51"format not a string literal and no format arguments0(0#0#62"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m8624600480#1671"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-generated-files.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-own-target-headers.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-all-target-headers.hmap -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-project-headers.hmap -F/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/include -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources/ppc -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources -include /var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-hctjznhssiyxyghbchstqnggfuer/SocketTest_Prefix.pch -c /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m -o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/AsyncSocket.o0#
-
-CCompileC build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/SocketTestAppDelegate.o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTestAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s316941715.912510
-e316941716.209706
-r1
-xCompileC
-xbuild/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/SocketTestAppDelegate.o
-x/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTestAppDelegate.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTestAppDelegate.m316941715#316941716#0(0"0(0#0#72"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTestAppDelegate.m8625240352#1691"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-generated-files.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-own-target-headers.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-all-target-headers.hmap -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-project-headers.hmap -F/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/include -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources/ppc -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources -include /var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-hctjznhssiyxyghbchstqnggfuer/SocketTest_Prefix.pch -c /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTestAppDelegate.m -o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/SocketTestAppDelegate.o0#
-
-CCompileC build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/main.o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s316941715.744088
-e316941715.912423
-r1
-xCompileC
-xbuild/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/main.o
-x/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/main.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/main.m316941715#316941715#0(0"0(0#0#55"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/main.m8635940160#1657"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-generated-files.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-own-target-headers.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-all-target-headers.hmap -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-project-headers.hmap -F/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/include -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources/ppc -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources -include /var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-hctjznhssiyxyghbchstqnggfuer/SocketTest_Prefix.pch -c /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/main.m -o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/main.o0#
-
-CCompileC build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/AsyncSocket.o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s316941714.079727
-e316941715.630140
-r1
-xCompileC
-xbuild/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/AsyncSocket.o
-x/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m: In function '-[AsyncSocket connectToHost:onPort:withTimeout:error:]':
-o/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:951: warning: format not a string literal and no format arguments
-o/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:957: warning: format not a string literal and no format arguments
-o/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m: In function '-[AsyncSocket connectToAddress:withTimeout:error:]':
-o/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:1004: warning: format not a string literal and no format arguments
-o/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:1010: warning: format not a string literal and no format arguments
-lSLF07#2@70"Compile /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m316941714#316941715#0(782"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m: In function '-[AsyncSocket connectToHost:onPort:withTimeout:error:]':/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:951: warning: format not a string literal and no format arguments/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:957: warning: format not a string literal and no format arguments/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m: In function '-[AsyncSocket connectToAddress:withTimeout:error:]':/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:1004: warning: format not a string literal and no format arguments/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m:1010: warning: format not a string literal and no format arguments4(22@51"Format not a string literal and no format arguments316941714#134#129#0(6@62"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m261692711#951#0#951#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments316941714#263#129#0(6@62"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m261692711#957#0#957#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments316941714#522#130#0(6@62"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m261692711#1004#0#1004#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments316941714#652#130#0(6@62"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m261692711#1010#0#1010#0#51"format not a string literal and no format arguments0(0#0#62"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m8636569664#1670"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-generated-files.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-own-target-headers.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-all-target-headers.hmap -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-project-headers.hmap -F/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/include -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources/x86_64 -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources -include /var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-ayxacwxlsdialeagxofqilpafhvx/SocketTest_Prefix.pch -c /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/AsyncSocket.m -o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/AsyncSocket.o0#
-
-CCompileC build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/SocketTestAppDelegate.o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTestAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s316941713.918385
-e316941714.159363
-r1
-xCompileC
-xbuild/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/SocketTestAppDelegate.o
-x/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTestAppDelegate.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTestAppDelegate.m316941713#316941714#0(0"0(0#0#72"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTestAppDelegate.m8636406336#1690"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-generated-files.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-own-target-headers.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-all-target-headers.hmap -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-project-headers.hmap -F/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/include -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources/x86_64 -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources -include /var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-ayxacwxlsdialeagxofqilpafhvx/SocketTest_Prefix.pch -c /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTestAppDelegate.m -o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/SocketTestAppDelegate.o0#
-
-CCompileC build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/main.o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s316941713.917067
-e316941714.079644
-r1
-xCompileC
-xbuild/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/main.o
-x/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/main.m316941713#316941714#0(0"0(0#0#55"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/main.m8637087744#1656"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-generated-files.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-own-target-headers.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-all-target-headers.hmap -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-project-headers.hmap -F/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/include -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources/x86_64 -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources -include /var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-ayxacwxlsdialeagxofqilpafhvx/SocketTest_Prefix.pch -c /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/main.m -o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/main.o0#
-
-CCompileXIB /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/English.lproj/MainMenu.xib
-s316941707.570383
-e316941707.896382
-r1
-xCompileXIB
-x/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/English.lproj/MainMenu.xib
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib316941707#316941707#0(0"0(0#0#75"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/English.lproj/MainMenu.xib8616666048#399"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/Resources/English.lproj/MainMenu.nib /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
-
-CCopyStringsFile /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s316941707.569638
-e316941707.598973
-r1
-xCopyStringsFile
-x/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings316941707#316941707#0(0"0(0#0#80"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/English.lproj/InfoPlist.strings8617889664#390"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/Resources/English.lproj0#
-
-CCreateUniversalBinary /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/MacOS/SocketTest normal "x86_64 i386 ppc"
-s316941717.083047
-e316941717.086012
-r1
-xCreateUniversalBinary
-x/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/MacOS/SocketTest
-xnormal
-xx86_64 i386 ppc
-lSLF07#2@101"CreateUniversalBinary build/Release/SocketTest.app/Contents/MacOS/SocketTest normal "x86_64 i386 ppc"316941717#316941717#0(0"0(0#0#64"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/x86_64 i386 ppc8631063904#579"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    /usr/bin/lipo -create /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/SocketTest /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/SocketTest /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/SocketTest -output /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/MacOS/SocketTest0#
-
-CGenerateDSYMFile /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app.dSYM /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/MacOS/SocketTest
-s316941717.086085
-e316941717.162074
-r1
-xGenerateDSYMFile
-x/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app.dSYM
-x/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/MacOS/SocketTest
-lSLF07#2@105"GenerateDSYMFile build/Release/SocketTest.app.dSYM build/Release/SocketTest.app/Contents/MacOS/SocketTest316941717#316941717#0(0"0(0#0#103"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/MacOS/SocketTest8626581248#278"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    /Developer/usr/bin/dsymutil /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/MacOS/SocketTest -o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app.dSYM0#
-
-CLd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/SocketTest normal i386
-s316941715.861880
-e316941715.933923
-r1
-xLd
-x/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/SocketTest
-xnormal
-xi386
-lSLF07#2@132"Link /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/SocketTest316941715#316941715#0(0"0(0#0#0"8627268352#635"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release -F/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release -filelist /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/SocketTest.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/i386/SocketTest0#
-
-CLd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/SocketTest normal ppc
-s316941717.052104
-e316941717.082960
-r1
-xLd
-x/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/SocketTest
-xnormal
-xppc
-lSLF07#2@131"Link /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/SocketTest316941717#316941717#0(0"0(0#0#0"8636053312#632"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release -F/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release -filelist /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/SocketTest.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/ppc/SocketTest0#
-
-CLd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/SocketTest normal x86_64
-s316941715.631495
-e316941715.744002
-r1
-xLd
-x/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/SocketTest
-xnormal
-xx86_64
-lSLF07#2@134"Link /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/SocketTest316941715#316941715#0(0"0(0#0#0"8636916832#641"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release -F/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release -filelist /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/SocketTest.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/Objects-normal/x86_64/SocketTest0#
-
-CProcessInfoPlistFile /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/Info.plist SocketTest-Info.plist
-s316941707.566616
-e316941707.569572
-r1
-xProcessInfoPlistFile
-x/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/Info.plist
-xSocketTest-Info.plist
-lSLF07#2@29"Process SocketTest-Info.plist316941707#316941707#0(0"0(0#0#70"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTest-Info.plist13229753409208424#353"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    builtin-infoPlistUtility SocketTest-Info.plist -genpkginfo /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app/Contents/Info.plist0#
-
-CProcessPCH /var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-ayxacwxlsdialeagxofqilpafhvx/SocketTest_Prefix.pch.gch SocketTest_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s316941707.896484
-e316941711.229884
-r1
-xProcessPCH
-x/var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-ayxacwxlsdialeagxofqilpafhvx/SocketTest_Prefix.pch.gch
-xSocketTest_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile SocketTest_Prefix.pch316941707#316941711#0(0"0(0#0#70"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTest_Prefix.pch8613308832#1547"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-generated-files.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-own-target-headers.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-all-target-headers.hmap -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-project-headers.hmap -F/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/include -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources/x86_64 -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources -c /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTest_Prefix.pch -o /var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-ayxacwxlsdialeagxofqilpafhvx/SocketTest_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-dezchruopzgtnacrmvxhixsouuzz/SocketTest_Prefix.pch.gch SocketTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s316941707.897260
-e316941711.444846
-r1
-xProcessPCH
-x/var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-dezchruopzgtnacrmvxhixsouuzz/SocketTest_Prefix.pch.gch
-xSocketTest_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile SocketTest_Prefix.pch316941707#316941711#0(0"0(0#0#70"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTest_Prefix.pch8612859296#1543"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-generated-files.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-own-target-headers.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-all-target-headers.hmap -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-project-headers.hmap -F/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/include -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources/i386 -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources -c /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTest_Prefix.pch -o /var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-dezchruopzgtnacrmvxhixsouuzz/SocketTest_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-hctjznhssiyxyghbchstqnggfuer/SocketTest_Prefix.pch.gch SocketTest_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
-s316941711.230068
-e316941713.916848
-r1
-xProcessPCH
-x/var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-hctjznhssiyxyghbchstqnggfuer/SocketTest_Prefix.pch.gch
-xSocketTest_Prefix.pch
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile SocketTest_Prefix.pch316941711#316941713#0(0"0(0#0#70"/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTest_Prefix.pch8626620576#1551"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-generated-files.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-own-target-headers.hmap -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-all-target-headers.hmap -iquote /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/SocketTest-project-headers.hmap -F/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/include -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources/ppc -I/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/SocketTest.build/Release/SocketTest.build/DerivedSources -c /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/SocketTest_Prefix.pch -o /var/folders/td/td4GysoMFI09aSOjXivFYE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocketTest_Prefix-hctjznhssiyxyghbchstqnggfuer/SocketTest_Prefix.pch.gch0#
-
-CTouch /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app
-s316941717.162175
-e316941717.164470
-r1
-xTouch
-x/Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app
-lSLF07#2@83"Touch /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app316941717#316941717#0(0"0(0#0#0"8625263072#156"    cd /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant    /usr/bin/touch -c /Users/jimmy/Tech/Cocoa-Socket-Testing-Assistant/build/Release/SocketTest.app0#
-
