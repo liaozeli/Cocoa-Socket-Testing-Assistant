@@ -112,6 +112,9 @@
 - (void)onSocketDidDisconnect:(AsyncSocket *)sock    //掉线处理
 {
 	isConnect = NO;
+	[connect setTitle:@"Connect"];
+	[ip_address setEnabled:YES];
+	[port setEnabled:YES];
 	NSLog(@"onSocketDidDisconnect:%p", sock);
 }
 
