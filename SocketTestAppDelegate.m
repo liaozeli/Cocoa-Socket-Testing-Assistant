@@ -134,6 +134,7 @@
 	//NSData *strData = [data subdataWithRange:NSMakeRange(0, [data length] - 2)];
 	//NSString *msg = [[[NSString alloc] initWithData:strData encoding:NSUTF8StringEncoding] autorelease];
 	[self logMessage:str];
+	[Socket readDataWithTimeout:-1 tag:0];
 }
 
 - (void)onSocket:(AsyncSocket *)sock didReadPartialDataOfLength:(CFIndex)partialLength tag:(long)t
